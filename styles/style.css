@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 .container-main-bg {
@@ -24,6 +25,7 @@
 .tourism-card h1 {
   color: rgb(0, 104, 145);
   font-size: 28px;
+  font-weight: 600;
 }
 .tourism-card p {
   color: rgb(39, 39, 39);

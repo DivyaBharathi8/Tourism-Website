@@ -1,0 +1,47 @@
+
+$heading-color: rgb(0, 104, 145);
+$button-bg-color: rgb(0, 104, 145);
+$para-color: rgb(39, 39, 39);
+$card-background-color:rgb(235, 249, 255);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container-main-bg {
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 100vh;
+ 
+}
+
+.tourism-card{
+    background-color: $card-background-color;
+    padding:3%;
+    gap:10px;
+    text-align: center;
+    border-radius: 16px 16px 0 0;
+    h1{
+        color: $heading-color;
+        font-size: 28px;
+    }
+    p{
+        color: $para-color;
+        text-align: center;
+    }
+    button{
+        background-color: $button-bg-color;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 16px;
+    }
+}

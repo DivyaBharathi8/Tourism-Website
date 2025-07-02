@@ -12,6 +12,22 @@ $card-background-color:aliceblue;
     
 }
 
+h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+p{
+    font-size: 15px;
+    // text-align: justify;
+}
+.pr-1{
+    padding-right: 10px;
+}
+
 .container-main-bg {
   background-image: url(../images/bg.jpg);
   background-position: center;
@@ -31,8 +47,7 @@ $card-background-color:aliceblue;
     border-radius: 16px 16px 0 0;
     h1{
         color: $heading-color;
-        font-size: 28px;
-        font-weight: 600;
+
     }
     p{
         color: $para-color;
@@ -45,5 +60,30 @@ $card-background-color:aliceblue;
         border: none;
         border-radius: 20px;
         padding: 6px 16px;
+    }
+}
+
+.container-bg-2{
+    background-image: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 30%;
+    height: 100%;
+    padding: 1%;
+    h1{
+        color: #fff;
+    }
+    .card-container{
+        padding: 2%;
+        background-color: #fff;
+        border-radius: 4px;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        p{
+            color: rgb(85, 85, 85);
+        }
     }
 }

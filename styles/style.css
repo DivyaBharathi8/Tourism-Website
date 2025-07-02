@@ -5,6 +5,24 @@
   font-family: "Roboto";
 }
 
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+}
+
+.pr-1 {
+  padding-right: 10px;
+}
+
 .container-main-bg {
   background-image: url(../images/bg.jpg);
   background-position: center;
@@ -24,8 +42,6 @@
 }
 .tourism-card h1 {
   color: rgb(0, 104, 145);
-  font-size: 28px;
-  font-weight: 600;
 }
 .tourism-card p {
   color: rgb(39, 39, 39);
@@ -38,4 +54,29 @@
   border: none;
   border-radius: 20px;
   padding: 6px 16px;
+}
+
+.container-bg-2 {
+  background-image: url(../images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 30%;
+  height: 100%;
+  padding: 1%;
+}
+.container-bg-2 h1 {
+  color: #fff;
+}
+.container-bg-2 .card-container {
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.container-bg-2 .card-container img {
+  width: 100px;
+  height: 100px;
+}
+.container-bg-2 .card-container p {
+  color: rgb(85, 85, 85);
 }/*# sourceMappingURL=style.css.map */

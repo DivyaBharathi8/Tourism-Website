@@ -119,9 +119,9 @@ a {
     width: 100%;
     margin: 0 0;
   }
-  .container-bg-2, .container-bg-3 {
+  /* .container-bg-2, .container-bg-3 {
     height: 100vh;
-  }
+  } */
   .p-5 {
     padding: 1rem !important;
   }
